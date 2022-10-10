@@ -3,37 +3,71 @@ public class Main {
 
         //1.Printati "Hello" in consola, iar pe rand nou, printati numele vostru.//
 
-        System.out.println("Hello \nMarius!");
+//        System.out.println("Hello \nMarius!");
+//
+//        //2.Printati rezultatul sumei a doua numere(orice numere)//
+//        //System.out.println("Suma a doua numere 2 + 2 este:");//
+//        int SumaADouaNumere = 2 + 2;
+//        System.out.println(SumaADouaNumere);
+//
+//        //3. Printati rezultatul impartirii a doua numere. Atentie, daca numarul nu este intreg, sa afiseze si valorile dupa virgula.//
+//        //System.out.println("Impartirea a doua numere 10/3 este:");//
+//        double ImpartireaADouaNumere = 10/3d;
+//        System.out.println(ImpartireaADouaNumere);
+//
+//        //4.Printati rezultatul urmatoarelor operatiuni//
+//        //a.//
+//        int OperatiuneaA = -5 + 8 * 6;
+//        System.out.println(OperatiuneaA);
+//
+//        //b.//
+//        double OperatiuneaB = (55+9) % 9d;
+//        System.out.println(OperatiuneaB);
+//
+//        //c.//
+//        int OperatiuneaC =20 + -3*5 / 8;
+//        System.out.println(OperatiuneaC);
+//
+//        //d.//
+//        double OperatiuneaD = 5 + 15 / 3 * 2 - 8 % 3d;
+//        System.out.println(OperatiuneaD);
 
-        //2.Printati rezultatul sumei a doua numere(orice numere)//
-        //System.out.println("Suma a doua numere 2 + 2 este:");//
-        int SumaADouaNumere = 2 + 2;
-        System.out.println(SumaADouaNumere);
 
-        //3. Printati rezultatul impartirii a doua numere. Atentie, daca numarul nu este intreg, sa afiseze si valorile dupa virgula.//
-        //System.out.println("Impartirea a doua numere 10/3 este:");//
-        double ImpartireaADouaNumere = 10/3d;
-        System.out.println(ImpartireaADouaNumere);
+        int x = 2;
+        int y = 5;
 
-        //4.Printati rezultatul urmatoarelor operatiuni//
-        //a.//
-        int OperatiuneaA = -5 + 8 * 6;
-        System.out.println(OperatiuneaA);
+        int z = sum(x, y);
+        System.out.println(z);
 
-        //b.//
-        double OperatiuneaB = (55+9) % 9d;
-        System.out.println(OperatiuneaB);
+        float a = substract(x, y);
+        System.out.println(a);
 
-        //c.//
-        int OperatiuneaC =20 + -3*5 / 8;
-        System.out.println(OperatiuneaC);
+        float c= divide(x,y);
+        System.out.println(c);
 
-        //d.//
-        double OperatiuneaD = 5 + 15 / 3 * 2 - 8 % 3d;
-        System.out.println(OperatiuneaD);
-
-
-
+        float d= asterics(x,y);
+        System.out.println(d);
 
     }
+
+    public static int sum(int first, int second) {
+        int result = first + second;
+        return result;
+    }
+
+    public static float substract(float first, float second){
+        float result = first - second;
+        return result;
+    }
+
+    public static float divide(float first, float second){
+        float result = first / second;
+        return result;
+    }
+
+    public static float asterics(float first, float second){
+        float result = first * second;
+        return result;
+    }
+
 }
