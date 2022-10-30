@@ -180,13 +180,23 @@ public class Main {
 //            data viitoare
 
         //Exercitiul 8
-        System.out.println(op.sumCount());
+        //System.out.println(op.sumCount());
 
         //Exercitiul 9
         //System.out.println(op.sumAndAverage());
 
+        //Tema While Loop
+
+        //Exercitiul 1
+
+        int first =20;
+        int last =30;
+        op.printFromFirstToLast(first,last);
+
+
 
     }
+
 
 
 

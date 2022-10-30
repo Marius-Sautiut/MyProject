@@ -153,4 +153,19 @@ public class LogicalOperations {
         }
         return sum/100f;
     }
+
+    //While Loop
+
+    // Exercitiul 1
+
+
+
+
+
+        public void printFromFirstToLast(int first, int last) {
+            while (first <= last) {
+                System.out.println(first);
+                first++;
+            }
+        }
 }
