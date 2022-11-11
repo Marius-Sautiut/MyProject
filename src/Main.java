@@ -189,9 +189,12 @@ public class Main {
 
         //Exercitiul 1
 
-        int first =20;
-        int last =30;
-        op.printFromFirstToLast(first,last);
+//        int first =20;
+//        op.printFromFirstToLast(first);
+
+        //Exercitiul 2
+        int last =10;
+        op.printFromLastToFirst(last);
 
 
 

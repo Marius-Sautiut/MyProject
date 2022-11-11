@@ -97,75 +97,103 @@ public class LogicalOperations {
     //Tema for loop
 
     //Exercitiul 1
-    public void printFromNumberTo100(int number){
-        for(int i=number;i<=100; i++) {
-            System.out.println(i);
+//    public void printFromNumberTo100(int number){
+//        for(int i=number;i<=100; i++) {
+//            System.out.println(i);
+//        }
+//    }
+////    // Exercitiul 2
+//    public void printFromNumberToMinus100(int number){
+//        for(int i=number;i>=-100; i--) {
+//            System.out.println(i);
+//        }
+//    }
+//        //Ecercitiul 3
+//    public void exercitiulTrei(int firstNumber, int secondNumber){
+//        for(int i=firstNumber;i<=secondNumber; i++) System.out.println(i);
+//    }
+//
+//    //Exercitiul 5
+//       public void evenNumber(int number){
+//           for(int i=number; i<=100;i++){
+//               if(i%2 ==0){
+//                   System.out.println(i);
+//               }
+//           }
+//       }
+//
+//
+//
+//
+////    //Exercitiul 6
+//   public void oddNumber(int number){
+//           for(int i=number; i<=100;i++){
+//               if(i%2 !=0){
+//                   System.out.println(i);
+//               }
+//           }
+//       }
+//
+//    //Exercitiul 7
+//    public float sumCount(){
+//        int sum=0;
+//        for(int i=0;i<=100;i++){
+//            sum+=i;
+//        }
+//        return (float) sum;
+//    }
+//
+//
+//    //Exercitiul 8
+//
+//    public float sumAndAverage(){
+//        int sum=0;
+//        for (int i=1;i<=100;i++){
+//            sum = sum +i;//sau sum +=i  face acelasi lucru
+//        }
+//        return sum/100f;
+//    }
+//
+//    //While Loop
+//
+//    // Exercitiul 1
+//
+//        public void printFromFirstToLast(int first) {
+//            while (first <= 100) {
+//                System.out.println(first);
+//                first++;
+//            }
+//        }
+//
+//        //Exercitiul 2
+//    public void printFromLastToFirst(int last){
+//        while(last>= -100){
+//            System.out.println(last);
+//            last--;
+//        }
+//    }
+
+
+    public int[] getArrayOfValues(int positions) {
+        int[] myArray = new int[positions];
+
+        for (int i = 0; i < myArray.length; i++) {
+            myArray[i] = i + 1;
         }
+        return myArray;
     }
-//    // Exercitiul 2
-    public void printFromNumberToMinus100(int number){
-        for(int i=number;i>=-100; i--) {
-            System.out.println(i);
+
+    public void printArray(int[] myArray){
+        for(int i=0; i < myArray.length; i++){
+            System.out.print(myArray[i]+" ");
         }
-    }
-        //Ecercitiul 3
-    public void exercitiulTrei(int firstNumber, int secondNumber){
-        for(int i=firstNumber;i<=secondNumber; i++) System.out.println(i);
-    }
 
-    //Exercitiul 5
-       public void evenNumber(int number){
-           for(int i=number; i<=100;i++){
-               if(i%2 ==0){
-                   System.out.println(i);
-               }
-           }
-       }
-
-
-
-
-//    //Exercitiul 6
-   public void oddNumber(int number){
-           for(int i=number; i<=100;i++){
-               if(i%2 !=0){
-                   System.out.println(i);
-               }
-           }
-       }
-
-    //Exercitiul 7
-    public float sumCount(){
-        int sum=0;
-        for(int i=0;i<=100;i++){
-            sum+=i;
-        }
-        return (float) sum;
     }
 
 
-    //Exercitiul 8
-
-    public float sumAndAverage(){
-        int sum=0;
-        for (int i=1;i<=100;i++){
-            sum = sum +i;//sau sum +=i  face acelasi lucru
-        }
-        return sum/100f;
-    }
-
-    //While Loop
-
-    // Exercitiul 1
 
 
 
 
 
-        public void printFromFirstToLast(int first, int last) {
-            while (first <= last) {
-                System.out.println(first);
-                first++;
-            }
-        }
 }
